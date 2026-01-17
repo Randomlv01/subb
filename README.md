@@ -3,8 +3,7 @@ subb - sudo but better
 
 you are using sudo. That's bloat! Use subb instead.
 
-# Installation/Uninstallation
-Install:
+# Install
 
 git clone https://github.com/Randomlv01/subb.git
 
@@ -14,6 +13,7 @@ chmod +x install.sh
 
 ./install.sh
 
+# Uninstall
 
 Uninstall:
 
