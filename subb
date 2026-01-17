@@ -1,0 +1,5 @@
+#!/bin/sh
+
+command="$@"
+
+su -c "$command"
