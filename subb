@@ -2,4 +2,9 @@
 
 command="$@"
 
+if [ "$#" -eq 0 ]; then
+		echo "subb: usage: subb {command}"
+		exit 1
+fi
+
 su -c "$command"
